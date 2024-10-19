@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[619],{3619:function(a,r,e){var s=e(4836);r.Z=void 0;var u=s(e(4938)),h=e(5893);r.Z=(0,u.default)((0,h.jsx)("path",{d:"m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"}),"ArrowForward")}}]);

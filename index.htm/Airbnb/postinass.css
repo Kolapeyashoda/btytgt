@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 0 50px;
+    background: whitesmoke;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+nav > ul{
+    list-style: none;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+nav > ul >li {
+    cursor: pointer;
+}
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6,
+.d7{
+    display: none;
+    height: 250px;
+    width: 200px;
+    background:white;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 72px;
+    left: 110px;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7 > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    list-style: none;
+    position: relative;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7 > ul >li {
+    font-size: 18px;
+    font-weight: bold;
+}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7:hover + .d1,.d2,.d3,.d4,.d5,.d6,.d7{
+        display: block;
+    }

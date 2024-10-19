@@ -1,0 +1,31 @@
+.container{
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+     /* border:2px dotted black  */
+     /* border: 2px dashed black; */
+     padding: 20px;
+     /* padding contains  1 value,2 value,4 value*/
+     /* Border contains 3 values 1->thickness,2->type,3->color */
+
+}
+.h1{
+    background: yellowgreen;
+    color: hotpink;
+}
+/* By default css called as User Agent Stylesheet */
+/* To remove this default css use following css properties */
+.d2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width remains same in border-box */
+    /* It takes 2 values */
+    /* by default it contain content-box */
+    /* Only gives space height remains same in content box */
+}
+.d3{
+    margin: 10px;
+    
+
+}

@@ -1,0 +1,51 @@
+span{
+    
+    color: green;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    color: black;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container > article{
+    width: 80%;
+    margin: 40px auto ;
+}
+.container > article > table{
+    width: 100%;
+}
+table ,
+th ,
+td,
+tr{
+    border:1px solid green;
+    border-collapse: collapse;
+    padding: 10px 20px;
+
+} 
+th{
+    background: green;
+    color:black;
+    border:1px solid green;
+
+}
+td:hover{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+tr:nth-child(even)
+td{
+    background-color:lightgray;
+}

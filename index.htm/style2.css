@@ -1,0 +1,17 @@
+/* .container h1{
+    background: hotpink;
+    color: white;
+} */
+.container > h1{
+    background: chocolate;
+    color: wheat;
+}
+.sub-container > .head3 +article{
+    background: rosybrown;
+    color: magenta;
+
+}
+/* .sub-container > .head3 ~ article{
+    background: blueviolet;
+    color: ;
+} */

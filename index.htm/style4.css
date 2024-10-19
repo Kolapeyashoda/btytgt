@@ -1,0 +1,21 @@
+.para::first-line{
+    background: yellow;
+    color: black;
+}
+.heading::first-letter{
+    background: rebeccapurple;
+
+}
+.js::before{
+    content: "Welcome to";
+}
+.js::after{
+    content: "Lecture";
+}
+.para::selection{
+    background: palevioletred;
+
+}
+ol > li::marker{
+    color: red;
+}

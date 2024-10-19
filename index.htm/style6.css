@@ -1,0 +1,37 @@
+.container{
+    height: 100mm;
+    width: 100mm;
+    height:10cm;
+    width: 10cm;
+    height: 4in;
+    width: 4in;
+    height: 250px;
+    width: 250px;
+    height: 100pt;
+    width: 100pt;
+    height: 15pc;
+    width: 15pc;
+    border: 1px solid black;
+}
+section{
+    font-size: 20px;
+}
+section > p{
+    font-size: 1.5em;
+    font-size: 1.5rem;
+}
+aside{
+    width: 80%;
+    height: 350%;
+    border: 1px solid black;
+}
+div{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+}
+.art{
+    height:90vh;
+    width:90vw;
+    border: 1px solid black ;
+}

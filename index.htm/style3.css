@@ -1,0 +1,6 @@
+.form-control >input[type="password"]{
+    background: gray;
+}
+.form-control > input[required]{
+    background: goldenrod;
+}
